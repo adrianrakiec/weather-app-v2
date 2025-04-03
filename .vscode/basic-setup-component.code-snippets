@@ -1,0 +1,18 @@
+{
+  "Setup Component": {
+    "prefix": "component-s",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "// #region vendor",
+      "// #endregion",
+      "// #region internal",
+      "// #endregion",
+      "</script>",
+      "",
+      "<template>",
+      "  <TypographyText>${1:ExampleComponent}!</TypographyText>",
+      "</template>",
+    ],
+    "description": "Setup Component",
+  },
+}

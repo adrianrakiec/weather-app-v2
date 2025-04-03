@@ -1,0 +1,16 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+      "methods": ["PUT", "POST", "PATCH", "DELETE", "GET", "OPTIONS", "HEAD"]
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+  },
+  "globalHeaders": {
+    "allow": "PUT, POST, PATCH, DELETE, GET, OPTIONS, HEAD",
+    "Allow": "PUT, POST, PATCH, DELETE, GET, OPTIONS, HEAD"
+  }
+}

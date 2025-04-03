@@ -1,0 +1,23 @@
+{
+  "Pinia Composition Store": {
+    "prefix": "store",
+    "body": [
+      "// #region vendor",
+      "import { acceptHMRUpdate, defineStore } from 'pinia';",
+      "// #endregion",
+      "// #region internal",
+      "// #endregion",
+      "",
+      "export const use${1:ExampleStore} = defineStore('${1:ExampleStore}', () => {",
+      "",
+      "  return {};",
+      "});",
+      "",
+      "if (import.meta.hot) {",
+      "  import.meta.hot.accept(acceptHMRUpdate(use${1:ExampleStore}, import.meta.hot));",
+      "}",
+      "",
+    ],
+    "description": "Pinia Composition Store",
+  },
+}

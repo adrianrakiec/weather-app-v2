@@ -1,0 +1,22 @@
+@tailwind base;
+
+@layer base {
+  body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgba(176, 217, 242, 0.3);
+  }
+
+  button {
+    color: currentColor;
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
